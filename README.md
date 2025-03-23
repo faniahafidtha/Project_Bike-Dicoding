@@ -1,15 +1,22 @@
-# proyek_analisis_data
+# Dicoding Collection Dashboard ✨
 
-# Dadan Ramdani
+## Setup Environment - Anaconda
+```
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install -r requirements.txt
+```
 
-# mc287d5y1017
+## Setup Environment - Shell/Terminal
+```
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
 
-# 1).Cara menjalankan dashboard di streamlit
-
-# 1. Install streamlit menggunakan [pip install streamlit]
-
-# 2. Buka file python yang sudah dibuat, dan pastikan berisi library untuk streamlit
-
-# 3. Jalankan dash board diterminal directory file python menggunakan streamlit run app.py (nama proyek)
-
-# 4. Dashboard streamlit dapat langsung diakses pada (http://localhost:8501)
+## Run steamlit app
+```
+streamlit run dashboard.py
+```
