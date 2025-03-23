@@ -30,8 +30,8 @@ import seaborn as sns
 """
 
 # Load dataset harian dan per jam
-df_day = pd.read_csv("day.csv")
-df_hour = pd.read_csv("hour.csv")
+df_day = pd.read_csv("dashboard/day.csv")
+df_hour = pd.read_csv("dashboard/hour.csv")
 
 """**Insight:**
 - pd.read_csv("day.csv") → Mengambil data dari file CSV untuk dataset harian.
