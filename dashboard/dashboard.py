@@ -151,8 +151,8 @@ Peminjaman sepeda mencapai puncaknya pada jam 07:00–09:00 pagi dan 17:00–19:
 #pip install streamlit
 
 # Load dataset
-df_day = pd.read_csv("dashboard/day.csv")
-df_hour = pd.read_csv("dashboard/hour.csv")
+#df_day = pd.read_csv("dashboard/day.csv")
+#df_hour = pd.read_csv("dashboard/hour.csv")
 
 # Konversi kolom tanggal ke format datetime
 df_day['dteday'] = pd.to_datetime(df_day['dteday'])
